@@ -17,7 +17,8 @@ ________________________________________
 •	PC2 and PC3 belong to VLAN 20 (192.168.20.0/24)<br>
 •	Switch connected to Router via a trunk port (FastEthernet0/1 on switch → GigabitEthernet0/0 on router)<br>
 •	Router subinterfaces handle VLAN routing<br>
-(Insert screenshot of your Packet Tracer setup here)<br>
+<img width="1366" height="768" alt="Screenshot 2026-11-03 155255" src="https://github.com/user-attachments/assets/870cfb6a-3f16-4838-851b-44bc7e4ab506" />
+
 ________________________________________
 # IP Addressing Table
 Device	VLAN	IP Address	Subnet Mask	Port/Interface<br>
@@ -86,11 +87,13 @@ Router(config)# interface gigabitethernet0/0<br>
 Router(config-if)# no shutdown<br>
 ________________________________________
 # Output (Screenshots)
-•	VLAN configuration on the switch<br>
-•	Router subinterface configuration<br>
-•	PC IP settings<br>
-•	Successful ping between PCs in different VLANs after routing<br>
-•	Successful ping between PCs in the same VLAN<br>
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/f782f861-90b9-47c1-92ae-b0aca3e58c1f" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/7d006e7b-91e7-46e4-a758-1f6d6e884708" />
+<img width="1366" height="768" alt="Screenshot 2026-11-03 155514" src="https://github.com/user-attachments/assets/47ce56b0-f31c-4cf0-9901-5124da62f00b" />
+<img width="1366" height="768" alt="Screenshot 2026-11-03 155525" src="https://github.com/user-attachments/assets/4e5a7d37-20e4-4523-ab50-2ba0c58e9c17" />
+<img width="1366" height="768" alt="Screenshot 2026-11-03 155612" src="https://github.com/user-attachments/assets/7f8f3edb-e3fb-4d31-aecd-2663b2c7741e" />
+<img width="1364" height="768" alt="Screenshot 2026-11-03 155702" src="https://github.com/user-attachments/assets/15092964-d1e0-4a73-ac0c-824a3258d89d" />
+
 ________________________________________
 # Result
 Inter-VLAN routing was successfully configured using the Router-on-a-Stick method. PCs in different VLANs could communicate through the router.
